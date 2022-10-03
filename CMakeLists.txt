@@ -677,7 +677,7 @@ endif()
 # Define install
 # ---------------------------------------
 
-set(qhull_TARGETS_INSTALL ${qhull_TARGETS_APPLICATIONS})
+set(qhull_TARGETS_INSTALL "")
 if (BUILD_SHARED_LIBS)
     list(APPEND qhull_TARGETS_INSTALL ${qhull_TARGETS_SHARED})
 endif()
